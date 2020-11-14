@@ -12,8 +12,8 @@ int main(void) {
     chmod("../../flag", 0644);
     fprintf(stderr, "%s", "12345");
     fp = fopen("../../flag", "r");
-    fgets(flag, 99, fp);
-    fprintf(stderr, "%s", flag);
-    fclose(fp);
+    //fgets(flag, 99, fp);
+    //fprintf(stderr, "%s", flag);
+    //fclose(fp);
     fprintf(stderr, "%s", "33434");
 }
