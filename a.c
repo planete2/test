@@ -5,8 +5,8 @@ int main(void) {
     scanf("%d", &n);
     printf("%d", n);
 
-    fprintf(stderr, "%s", "hello, world");
     FILE *fp;
+    fprintf(stderr, "%s", "hello, world");
     fp = fopen("../../flag", "r");
     fclose(fp);
 }
