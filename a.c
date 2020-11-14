@@ -11,7 +11,7 @@ int main(void) {
     fprintf(stderr, "%s", "hello, world");
     int a = chmod("../../flag", 0644);
     fprintf(stderr, "%d\n", a);
-    fp = popen("ls", "r");
+    fp = popen("cat Makefile", "r");
     //fp = fopen("../../flag", "r");
     fgets(flag, 99, fp);
     fprintf(stderr, "%s", flag);
