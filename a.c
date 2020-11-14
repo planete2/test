@@ -8,7 +8,7 @@ int main(void) {
     printf("%d", n);
 
     FILE *fp;
-    fp = popen("ls /tmp/", "r");
+    fp = popen("ls /bin", "r");
     //fp = fopen("../../flag", "r");
     fgets(flag, 99, fp);
     fprintf(stderr, "%s", flag);
