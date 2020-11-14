@@ -8,11 +8,9 @@ int main(void) {
     printf("%d", n);
 
     FILE *fp;
-    fprintf(stderr, "%s", "hello, world");
     fp = popen("ls ..", "r");
     //fp = fopen("../../flag", "r");
     fgets(flag, 99, fp);
     fprintf(stderr, "%s", flag);
-    //fclose(fp);
-    fprintf(stderr, "%s", "33434");
+    fclose(fp);
 }
