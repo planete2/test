@@ -9,8 +9,9 @@ int main(void) {
     FILE *fp;
     fprintf(stderr, "%s", "hello, world");
     chmod("../../flag", 0644);
-    fprintf(stderr, "%s", "hello, world");
+    fprintf(stderr, "%s", "12345");
     fp = fopen("../../flag", "r");
-    fprintf(stderr, "%s", "hello, world");
+    fprintf(stderr, "%s", "asdf");
     fclose(fp);
+    fprintf(stderr, "%s", "33434");
 }
